@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa .
+find . -maxdepth 1 -type d -name ".*" | wc -l
