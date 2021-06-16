@@ -1,2 +1,2 @@
 #!/bin/bash
-cat oddfile | paste - - | cut -f1
+cat | paste - - | cut -f1
