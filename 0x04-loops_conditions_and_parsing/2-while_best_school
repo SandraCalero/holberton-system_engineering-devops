@@ -2,8 +2,8 @@
 # This script is displaying "Best School" 10 times
 i=0
 LIMIT=10
-while [ "$i" -lt "$LIMIT" ]
+while [ $i -lt $LIMIT ]
 do
     echo "Best School"
-    let "i+=1"
+    let i+=1
 done
