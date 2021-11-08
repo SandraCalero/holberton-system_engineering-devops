@@ -24,6 +24,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ### 0. Simply matching School
 
+<img width="969" alt="ec65557f0da1fbfbff6659413885e4d4822f5b1d" src="https://user-images.githubusercontent.com/85451781/140785207-a7902880-617e-49c1-95ea-e6cc8e5d17b0.png">
+
 Requirements:
 
 - The regular expression must match School
@@ -50,17 +52,22 @@ $
 
 ### 1. Repetition Token #0
 
+<img width="959" alt="e7db3c377d46453588fc84f3a975661d142fee91" src="https://user-images.githubusercontent.com/85451781/140785405-7f032296-e20a-4f7d-a54d-f657e73a821f.png">
+
 Requirements:
 
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-  **Repo:**
+
+**Repo:**
 
 - GitHub repository: holberton-system_engineering-devops
 - Directory: 0x06-regular_expressions
 - File: 1-repetition_token_0.rb
 
 ### 2. Repetition Token #1
+
+<img width="967" alt="c59ff11db195d5cf17d1790a5141ae2f234786d2" src="https://user-images.githubusercontent.com/85451781/140785589-67f76583-1f39-41c0-a35e-98811952af42.png">
 
 Requirements:
 
@@ -75,11 +82,14 @@ Requirements:
 
 ### 3. Repetition Token #2
 
+<img width="974" alt="3b6bf4aeca6a0c2de584e7f5d68d11eef57ce205" src="https://user-images.githubusercontent.com/85451781/140785743-23b1649c-81b2-4ca0-b539-ec15e179d047.png">
+
 Requirements:
 
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-  **Repo:**
+
+**Repo:**
 
 - GitHub repository: holberton-system_engineering-devops
 - Directory: 0x06-regular_expressions
@@ -87,12 +97,15 @@ Requirements:
 
 ### 4. Repetition Token #3
 
+<img width="956" alt="f8dbcb9cf5ae569a8645027dc46e81cb372ce28e" src="https://user-images.githubusercontent.com/85451781/140786376-789a67cb-68e3-41d1-b605-e97a85bc9641.png">
+
 Requirements:
 
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 - Your regex should not contain square brackets
-  **Repo:**
+
+**Repo:**
 
 - GitHub repository: holberton-system_engineering-devops
 - Directory: 0x06-regular_expressions
@@ -155,6 +168,8 @@ sylvain@ubuntu$
 - File: 6-phone_number.rb
 
 ### 7. OMG WHY ARE YOU SHOUTING?
+
+![shouting](https://user-images.githubusercontent.com/85451781/140786965-8697b816-f597-4449-b945-206e0435a3ef.jpg)
 
 Requirement:
 
