@@ -68,7 +68,10 @@ It is organized from the lowest level to the highest level:
 
 - The lowest level: layer 1 which is for transmission on physical layers with electrical impulse, light or radio signal
 - The highest level: layer 7 which is for application specific communication like SNMP for emails, HTTP for your web browser, etc
-  Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
+
+Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
+
+![4e6a0ad87a65d7054248](https://user-images.githubusercontent.com/85451781/141036034-2ee8da33-3d0a-4c1c-b33d-91a0596b2f71.png)
 
 In this project we will mainly focus on:
 
@@ -76,6 +79,8 @@ In this project we will mainly focus on:
 - On the Network layer with IP and ICMP
 
 The image bellow describes more concretely how you can relate to every level.
+
+![0fc96bd99faa7941b18bcae4c5f90c6acd11791d](https://user-images.githubusercontent.com/85451781/141036116-850b91e5-faca-478b-903f-cd858a50eea0.jpg)
 
 Questions:
 
@@ -98,6 +103,8 @@ How is the OSI model organized?
 - File: 0-OSI_model
 
 ### 1. Types of network
+
+![4b995d4f8078b44afa968d68a98035d2bd7e8fac](https://user-images.githubusercontent.com/85451781/141036187-4393514f-2cd7-4a1e-91d6-96dab26186f3.jpg)
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -129,6 +136,8 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2. MAC and IP address
 
+![1e348ba3bcbb094b02922f821ffeb3d8c5438b7b](https://user-images.githubusercontent.com/85451781/141036243-06e0ddf1-aee8-41b3-809f-c4cf58c99bf9.jpg)
+
 Questions:
 
 What is a MAC address?
@@ -150,6 +159,8 @@ What is an IP address?
 - File: 2-MAC_and_IP_address
 
 ### 3. UDP and TCP
+
+![3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c](https://user-images.githubusercontent.com/85451781/141036307-c1983867-9e08-484d-b4a5-a503e85895f3.jpg)
 
 Let’s fill the empty parts in the drawing above.
 
@@ -182,7 +193,8 @@ While the full list of ports should not be memorized, it is important to know th
 - **22** for SSH
 - **80** for HTTP
 - **443** for HTTPS
-  Note that a specific [IP + port = socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket).
+
+Note that a specific [IP + port = socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket).
 
 Write a Bash script that displays listening ports:
 
@@ -228,6 +240,8 @@ sylvain@ubuntu$
 - File: 4-TCP_and_UDP_ports
 
 ### 5. Is the host on the network
+
+![giphy](https://user-images.githubusercontent.com/85451781/141036693-d1816f5c-42c0-4b7c-adc8-e3bd6cdbf825.gif)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
