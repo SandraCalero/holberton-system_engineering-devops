@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script is pinging an IP address passed as an argument
+code
