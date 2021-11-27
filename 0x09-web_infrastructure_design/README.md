@@ -110,3 +110,15 @@ Please, remember that everything must be written in English to further your tech
 - GitHub repository: holberton-system_engineering-devops
 - Directory: 0x09-web_infrastructure_design
 - File: 2-secured_and_monitored_web_infrastructure
+
+## Contributing
+
+This is a purely academic project for Holberton School. It cannot be modified and there will be no pull requests.
+
+## Authors
+
+Juan Sebastian Perea Bescos - [twitter](https://twitter.com/JuanSePeBe95) - [linkedin](https://www.linkedin.com/in/juan-sebastian-perea/)
+
+Sandra Calero Castañeda - [twitter](https://twitter.com/SandraC59631923) - [linkedin](https://www.linkedin.com/in/sandra-liliana-calero/)
+
+Project for [Holberton School](https://www.holbertonschool.com/)
