@@ -15,3 +15,4 @@ The following projects are performed here:
 ## 0x08. Networking basics #1
 ## Command line for the win
 ## 0x09. Web infrastructure design
+## 0x0A. Configuration management
