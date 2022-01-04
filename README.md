@@ -16,3 +16,4 @@ The following projects are performed here:
 ## Command line for the win
 ## 0x09. Web infrastructure design
 ## 0x0A. Configuration management
+## 0x0B. SSH
