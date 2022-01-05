@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This command gets Apache to run in the container and return a page containing Hello Holberton
+sudo /etc/init.d/apache2 start
