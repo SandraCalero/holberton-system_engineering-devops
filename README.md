@@ -18,3 +18,4 @@ The following projects are performed here:
 ## 0x0A. Configuration management
 ## 0x0B. SSH
 ## 0x0D. Web stack debugging #0
+## 0x0C. Web server
