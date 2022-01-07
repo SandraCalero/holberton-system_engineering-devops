@@ -1,5 +1,4 @@
 # Puppet manifests that configures Nginx server
-include stdlib
 
 #Install nginx
 package { 'nginx':
