@@ -7,7 +7,7 @@ package { 'nginx':
 
 #Create a page that contains the string Hellow World
 file { '/var/www/html/index.html':
-    content =>  'Hellow World\n',
+    content =>  'Hello World!',
 }
 
 # Configure Nginx server so that /redirect_me is redirecting to another page.
