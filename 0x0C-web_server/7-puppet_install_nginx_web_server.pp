@@ -7,7 +7,6 @@ package { 'nginx':
 
 #Create a page that contains the string Hellow World
 file { '/var/www/html/index.html':
-    ensure  => file,
     content => 'Hellow World',
 }
 
