@@ -5,9 +5,9 @@ sudo apt-get -y update
 sudo apt-get -y install haproxy
 
 # Permission
-sudo chown -R $USER:$USER /etc/haproxy
+sudo chown -R "$USER":"$USER" /etc/haproxy
 # Frontend/Backend configuration
-sudo echo "
+echo "
 frontend http
   bind *:80
   mode http
@@ -15,8 +15,8 @@ frontend http
 
 backend web-backend
    balance roundrobin
-   server 3358-web-01 35.196.20.175 check
-   server 3358-web-02 52.23.183.91 check" >> /etc/haproxy/haproxy.cfg
+   server 3358-web-01 35.196.20.175
+   server 3358-web-02 52.23.183.91" | sudo tee -a /etc/haproxy/haproxy.cfg > /dev/null
 
 # Restart server
-sudo service haproxy restart
+sudo service haproxy start
