@@ -1,4 +1,9 @@
 # Puppet manifests that configures Nginx server
+include stdlib
+
+exec { 'update':
+  command => '/usr/bin/apt-get -y update',
+}
 
 #Install nginx
 package { 'nginx':
