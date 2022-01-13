@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This script is fixing conexion to port 80 and stop web server
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+ln -fs /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
-sudo service nginx stop
+rm /run/nginx.pid
