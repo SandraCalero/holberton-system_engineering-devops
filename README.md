@@ -23,3 +23,4 @@ The following projects are performed here:
 ## 0x0E. Web stack debugging #1
 ## 0x10. HTTPS SSL
 ## 0x12. Web stack debugging #2
+## 0x14. MySQL
