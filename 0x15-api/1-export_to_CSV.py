@@ -16,8 +16,14 @@ if __name__ == "__main__":
     todo = requests.get(url + 'todos').json()
     todo_user = [task for task in todo if task['userId'] == int(employee_ID)]
 
-    with open('{}.csv'.format(employee_ID), 'w', encoding='UTF8') as file:
-        writer = csv.writer(file, quoting=csv.QUOTE_ALL)
+    with open('{}.csv'.format(employee_ID), 'w', encoding='UTF8') as f:
+        writer = csv.writer(f, delimiter=',', quotechar='"',
+                            quoting=csv.QUOTE_ALL)
         for task in todo_user:
-            data = [employee_ID, username, task['completed'], task['title']]
-            writer.writerow(data)
+            if task['userId'] == employee_ID:
+                row.append(employee_ID)
+                row.append(username)
+                row.append(todo['completed'])
+                row.append(todo['title'])
+                writer.writerow(row)
+                row = []
