@@ -6,19 +6,18 @@ import requests
 from sys import argv
 
 if __name__ == "__main__":
-    employee_ID = argv[1]
+    employee_ID = int(argv[1])
 
     url = 'https://jsonplaceholder.typicode.com/'
 
-    user = requests.get(url + 'users/' + employee_ID).json()
+    user = requests.get(url + 'users/' + str(employee_ID)).json()
     username = user['username']
 
     todo = requests.get(url + 'todos').json()
     todo_user = [task for task in todo if task['userId'] == int(employee_ID)]
 
-    with open('{}.csv'.format(int(employee_ID)), 'w', encoding='UTF8') as file:
+    with open('{}.csv'.format(employee_ID), 'w', encoding='UTF8') as file:
         writer = csv.writer(file, quoting=csv.QUOTE_ALL)
         for task in todo_user:
-            data = [int(employee_ID), username,
-                    task['completed'], task['title']]
+            data = [employee_ID, username, task['completed'], task['title']]
             writer.writerow(data)
