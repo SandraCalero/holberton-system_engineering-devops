@@ -3,7 +3,6 @@
 information about his/her TODO list progress
 """
 
-from json import load
 import requests
 from sys import argv
 
